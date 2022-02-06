@@ -7,58 +7,61 @@
 The purpose of this analysis of the NYC Citi Bike Dataset is to convey readable and digestible data to convince investors that a bike-sharing idea could work in Des Moines, Iowa. The idea is to persuade the investors by sequencing visualizations to help them understand the bigger picture.
 
 ## Analysis of NYC Citi Bike Data
-1. General Information
-  ![General Information](Resources/images/General Information.png)
-  - Generation Z is using the bike share for a longer duration
-  - The duration of bike share usage is about the same for Baby Boomers, Generation X, and Millennials
-  - Subscriber is the majority of the user type
+### 1. General Information 
 
-2. Start vs. End Locations
-  ![Start vs. End Locations](Resources/images/Start vs. End Locations.png)
-  - Manhattan is a dense location with many individuals who can commute to work or school with a bike
-  - Manhattan is a heavy tourism area where customers can utilize the bike sharing
+![General Information](Resources/images/General%20Information.png)
+  
+- Generation Z is using the bike share for a longer duration
+- The duration of bike share usage is about the same for Baby Boomers, Generation X, and Millennials
+- Subscriber is the majority of the user type
 
-  We can infer that since the start and end locations of the bike drop-offs are nearly identical, the majority of the users are using the bikes for commuting to work or school
+### 2. Start vs. End Locations
+![Start vs. End Locations](Resources/images/Start%20vs.%20End%20Locations.png)
 
-3. Bike Duration by Age
-  ![Bike Duration by Age](Resources/images/Bike Duration by Age.png)
-  - The average trip duration of Generation Z is significantly higher than the previous generations
-  - The percentage of individuals under the age of 18 years old [according to the 2020 Census](https://www.census.gov/quickfacts/fact/table/newyorkcountynewyork,desmoinescityiowa/PST045221):
-    - Manhattan, New York: 14.3%
-    - Des Moines, Iowa: 23.8%
+- Manhattan is a dense location with many individuals who can commute to work or school with a bike
+- Manhattan is a heavy tourism area where customers can utilize the bike sharing
 
-  Generation Z individuals have high demand for bike-sharing. Therefore, a bike-sharing business in De Moines provides an excellent business opportunity due to the higher rate of individuals under 18 years old in Des Moines, Iowa.
+We can infer that since the start and end locations of the bike drop-offs are nearly identical, the majority of the users are using the bikes for commuting to work or school
 
-  The 1969 average trip duration is an outlier case and may be associated with the United States bike boom, where more bicycles than cars were sold in the United States. One speculation is that these individuals have a passion for bike riding; however, further data is necessary to analyze this outlier case
+### 3. Bike Duration by Age
+![Bike Duration by Age](Resources/images/Bike%20Duration%20by%20Age.png)
+- The average trip duration of Generation Z is significantly higher than the previous generations
+- The percentage of individuals under the age of 18 years old [according to the 2020 Census](https://www.census.gov/quickfacts/fact/table/newyorkcountynewyork,desmoinescityiowa/PST045221):
+  - Manhattan, New York: 14.3%
+  - Des Moines, Iowa: 23.8%
 
-4. August Bike Usage
-  ![August Bike Usage](Resources/images/August Bike Usage.png)
-  - Peak hours:
-    - Morning: 8:00 AM - 9:00 AM
-    - Afternoon: 3:00 PM - 7:00 PM
-  - Off hours:
-    - Nighttime: 1:00 AM - 4:00 AM
+Generation Z individuals have high demand for bike-sharing. Therefore, a bike-sharing business in De Moines provides an excellent business opportunity due to the higher rate of individuals under 18 years old in Des Moines, Iowa.
 
-  The peak bike usage hours are associated with a range of hours of which individuals start and end work or school.
+The 1969 average trip duration is an outlier case and may be associated with the United States bike boom, where more bicycles than cars were sold in the United States. One speculation is that these individuals have a passion for bike riding; however, further data is necessary to analyze this outlier case
 
-5. Bike Checkout by Gender and Usertype
-  ![Bike Checkout by Gender and Usertype](Resources/images/Bike Checkout by Gender and Usertype.png)  
-  The line chart of `Checkout Times by Usertype` and `Checkout Times for Users by Gender` indicates that the primary user type of customer is the `unknown` gender type. Additionally, the unknown gender category primarily falls under customer user type. Therefore, we can speculate that the unknown category is two or more individuals, such as a family who rented bikes.
+### 4. August Bike Usage
+![August Bike Usage](Resources/images/August%20Bike%20Usage.png)
+- Peak hours:
+  - Morning: 8:00 AM - 9:00 AM
+  - Afternoon: 3:00 PM - 7:00 PM
+- Off hours:
+  - Nighttime: 1:00 AM - 4:00 AM
 
-6. Checkout Times by Usertype
-  ![Checkout Times by Usertype](Resources/images/Checkout Times by Usertype.png)
-  - Checkout duration:
-    - Subscriber: ~5 minute duration
-    - Customer: ~30 minute duration
-  - Peak hours:
-    - Weekdays: 8:00 AM - 9:00 AM and 5:00 PM - 7:00 PM
-    - Weekends: 11:00 AM - 6:00 PM
+The peak bike usage hours are associated with a range of hours of which individuals start and end work or school.
 
-  Subscribers' short bike checkout duration supports the speculation that these bikes are primarily used during the weekday for commuting to work or school. Conversely, bikes with a lengthy checkout time are used on weekends for recreation.
+### 5. Bike Checkout by Gender and Usertype
+![Bike Checkout by Gender and Usertype](Resources/images/Bike%20Checkout%20by%20Gender%20and%20Usertype.png)  
+The line chart of `Checkout Times by Usertype` and `Checkout Times for Users by Gender` indicates that the primary user type of customer is the `unknown` gender type. Additionally, the unknown gender category primarily falls under customer user type. Therefore, we can speculate that the unknown category is two or more individuals, such as a family who rented bikes.
 
-7. Bike Maintenance
-  ![Maintenance](Resources/images/Bike Maintenance.png)  
-  As seen on the previous charts, bikes' hours are not being used are from 1:00 AM - 4:00 AM. This timeframe provides an opportunity for a night crew to conduct bike maintenance and repairs. In addition, the bikes used most often can easily be spotted and prioritized for maintenance with ease.
+### 6. Checkout Times by Usertype
+![Checkout Times by Usertype](Resources/images/Checkout%20Times%20by%20Usertype.png)
+- Checkout duration:
+  - Subscriber: ~5 minute duration
+  - Customer: ~30 minute duration
+- Peak hours:
+  - Weekdays: 8:00 AM - 9:00 AM and 5:00 PM - 7:00 PM
+  - Weekends: 11:00 AM - 6:00 PM
+
+Subscribers' short bike checkout duration supports the speculation that these bikes are primarily used during the weekday for commuting to work or school. Conversely, bikes with a lengthy checkout time are used on weekends for recreation.
+
+### 7. Bike Maintenance
+![Maintenance](Resources/images/Bike%20Maintenance.png)  
+As seen on the previous charts, bikes' hours are not being used are from 1:00 AM - 4:00 AM. This timeframe provides an opportunity for a night crew to conduct bike maintenance and repairs. In addition, the bikes used most often can easily be spotted and prioritized for maintenance with ease.
 
 
 ## Summary
