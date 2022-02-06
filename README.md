@@ -32,7 +32,7 @@ We can infer that since the start and end locations of the bike drop-offs are ne
 
 Generation Z individuals have high demand for bike-sharing. Therefore, a bike-sharing business in De Moines provides an excellent business opportunity due to the higher rate of individuals under 18 years old in Des Moines, Iowa.
 
-The 1969 average trip duration is an outlier case and may be associated with the United States bike boom, where more bicycles than cars were sold in the United States. One speculation is that these individuals have a passion for bike riding; however, further data is necessary to analyze this outlier case
+The 1969 average trip duration is an outlier case and may be associated with the [United States bike boom](https://web.archive.org/web/20081205181751/http://www.users.globalnet.co.uk/~hadland/page35.htm), where more bicycles than cars were sold in the United States. One speculation is that these individuals have a passion for bike riding; however, further data is necessary to analyze this outlier case
 
 ### 4. August Bike Usage
 ![August Bike Usage](Resources/images/August%20Bike%20Usage.png)
